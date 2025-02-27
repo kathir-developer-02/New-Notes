@@ -33,7 +33,9 @@ const SignIn = ()=>{
           </div>
           <div className="inp-div">
             <form action={SignIn1} className="d-flex justify-content-center flex-column align-items-center">
+              <p>vel2@gmail.com</p>
               <input value={email} onChange={(e) => {setEmail(e.target.value)}} type="email" className="email-inp m-4 rounded-pill fs-5" placeholder="Email" required autoComplete="userName"/>
+              <p>123456789</p>
               <input value={password} onChange={(e) => {setPassword(e.target.value)}} type="password" className="password-inp rounded-pill fs-5" placeholder="Password" required autoComplete="current-password"/>
               <button className="sign-btn rounded-pill p-1 bg-primary text-light fw-bold fs-5" type="submit">Sign In!</button>
             </form>
